@@ -1,0 +1,23 @@
+{
+  "name": "react-cssu-state",
+  "version": "1.0.0",
+  "description": "global state management with stores: create, set, subscribe, update",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jp3492/react-cssu-state.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "JP Marks",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
